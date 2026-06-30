@@ -1,0 +1,52 @@
+p {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    color: rgba(31, 41, 55, 1);
+    background-color: rgba(243, 244, 246, 1);
+    width: 70px;
+    padding: .5em;
+    text-align: center;
+}
+
+p.square {
+    border-radius: 4px;
+}
+
+p.pill {
+    border-radius: 20px;
+}
+
+p.red {
+    background-color: rgba(254, 226, 226, 1);
+    color: rgba(153, 27, 27, 1);
+}
+
+p.yellow {
+    background-color: rgba(254, 243, 199, 1);
+    color: rgba(146, 64, 14, 1);
+}
+
+p.green {
+    background-color: rgba(209, 250, 229, 1);
+    color: rgba(6, 95, 70, 1);
+}
+
+p.blue {
+    background-color: rgba(219, 234, 254, 1);
+    color: rgba(30, 64, 175, 1);
+}
+
+p.indigo {
+    background-color: rgba(224, 231, 255, 1);
+    color: rgba(55, 48, 163, 1);
+}
+
+p.purple {
+    background-color: rgba(237, 233, 254, 1);
+    color: rgba(91, 33, 182, 1);
+}
+
+p.pink {
+    background-color: rgba(252, 231, 243, 1);
+    color: rgba(157, 23, 77, 1);
+}
