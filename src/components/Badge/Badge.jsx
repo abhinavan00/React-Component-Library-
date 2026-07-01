@@ -1,13 +1,11 @@
 import './Badge.css'
+import clsx from 'clsx'
 
 export default function Badge({ children, variant, color }) {
 
-    const variantClass = variant ? variant : ''
-    const colorClass = color ? color : ''
-
-    const badgeClasses = `${variantClass} ${colorClass}`
+    const allClasses = clsx(variant, color)
 
     return (
-        <p className={badgeClasses} >{children}</p>
+        <p className={allClasses} >{children}</p>
     )
 }

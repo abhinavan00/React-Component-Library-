@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Badge variant={'square'} color={'blue'}>Badge</Badge>
+      <Badge>Badge</Badge>
     </>
   )
 }
