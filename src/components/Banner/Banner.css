@@ -3,7 +3,7 @@
     max-width: 900px;
     padding: 1em;
     border-radius: 6px;
-    background-color: rgba(239, 246, 255, 1);
+    background: rgba(239, 246, 255, 1);
 }
 
 .banner-container div {
@@ -25,5 +25,27 @@
 }
 
 /* SUCCESS */
+.banner-container.success {
+    background: rgba(236, 253, 245, 1);
+}
 
+.banner-container div .banner-title.success {
+    color: rgba(6, 95, 70, 1);
+}
 
+.banner-container .banner-msg.success {
+    color: rgba(4, 120, 87, 1);
+}
+
+/* WARNING */
+.banner-container.warning {
+    background: rgba(255, 251, 235, 1);
+}
+
+.banner-container div .banner-title.warning {
+    color: rgba(146, 64, 14, 1);
+}
+
+.banner-container .banner-msg.warning {
+    color: rgba(180, 83, 9, 1);
+}
