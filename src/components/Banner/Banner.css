@@ -1,24 +1,26 @@
-.banner {
-    background-color: rgba(236, 253, 245, 1);
+.banner-container {
     max-width: 900px;
     padding: 1em;
     border-radius: 6px;
 }
 
-.banner div {
+.banner-container div {
     display: flex;
     align-items: center;
     gap: 1em;
 }
 
-.banner div .msg {
+.banner-container div .banner-title {
     font-weight: 500;
     margin: 0;
 }
 
-.banner .msg-detail {
+.banner-container .banner-msg {
     font-weight: 300;
     margin-top: .5em;
     margin-left: 2em;
 }
+
+/* SUCCESS */
+
 
