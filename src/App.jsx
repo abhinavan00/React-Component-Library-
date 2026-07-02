@@ -7,7 +7,7 @@ function App() {
 
   return (
     <>
-      <Banner variant={'multi-line'} />
+      <Banner isMultiline={true} />
     </>
   )
 }
