@@ -49,3 +49,16 @@
 .banner-container .banner-msg.warning {
     color: rgba(180, 83, 9, 1);
 }
+
+/* ERROR */
+.banner-container.error {
+    background: rgba(254, 242, 242, 1);
+}
+
+.banner-container div .banner-title.error {
+    color: rgba(146, 64, 14, 1);
+}
+
+.banner-container .banner-msg.error {
+    color: rgba(180, 83, 9, 1);
+}
