@@ -1,8 +1,12 @@
-/* TESTIMONIAL WITH IMAGE */
+/* ======================
+    TESTIMONIAL WITH IMAGE
+========================= */
+
+/* MOBILE */
 .testimonial-with-img {
     background: rgba(37, 69, 184, 1);
     width: 380px;
-    height: 600px;
+    height: 570px;
     margin: 8em auto 0;
     position: relative;
 }
@@ -44,4 +48,27 @@
     font-weight: 500;
     color: rgba(255, 255, 255, 1);
     margin-top: .25em;
+}
+
+/* DESKTOP */
+.testimonial-with-img.desktop {
+    width: 1350px;
+    height: 400px;
+    display: flex;
+}
+
+.testimonial-with-img.desktop .person-img.desktop {
+    width: 385px;
+    height: 465px;
+    top: 50%;
+    left: 4%;
+    transform: translateY(-50%);
+}
+
+.testimonial-with-img.desktop .testimonial-details.desktop {
+    width: 800px;
+    left: 35%;
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: -10%;
 }
