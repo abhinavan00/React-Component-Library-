@@ -1,0 +1,47 @@
+/* TESTIMONIAL WITH IMAGE */
+.testimonial-with-img {
+    background: rgba(37, 69, 184, 1);
+    width: 380px;
+    height: 600px;
+    margin: 8em auto 0;
+    position: relative;
+}
+
+.testimonial-with-img .person-img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 30%;
+    border-radius: 12px;
+    position: absolute;
+    top: -15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testimonial-with-img .testimonial-details {
+    width: 350px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testimonial-with-img .testimonial-details .text {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.5em;
+}
+
+.testimonial-with-img .testimonial-details div .person-name {
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+    margin-bottom: 0;
+}
+
+.testimonial-with-img .testimonial-details div .person-role {
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    margin-top: .25em;
+}
