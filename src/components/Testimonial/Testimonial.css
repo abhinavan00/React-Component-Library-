@@ -72,3 +72,58 @@
     transform: translateY(-50%);
     bottom: -10%;
 }
+
+/* ===========================
+    TESTIMONIAL WITHOUT IMAGE
+============================== */
+
+/* MOBILE */
+.no-img-testimonial {
+    background: rgba(249, 250, 251, 1);
+    width: 375px;
+    height: 550px;
+    margin: 4em auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.no-img-testimonial .testimonial-logo {
+    margin-bottom: 1em;
+}
+
+.no-img-testimonial .dot-pattern {
+    position: absolute;
+    bottom: -28%;
+    left: -10%;
+}
+
+.no-img-testimonial .testimonial-details {
+    padding: 1em;
+    z-index: 1;
+}
+
+.no-img-testimonial .testimonial-details .text {
+    font-size: 1.5em;
+    font-weight: 500;
+    color: rgba(17, 24, 39, 1);
+    line-height: 1.5em;
+}
+
+.no-img-testimonial .testimonial-details div {
+    margin-top: 3em;
+}
+
+.no-img-testimonial .testimonial-details div .person-name {
+    font-weight: 500;
+    color: rgba(17, 24, 39, 1);
+    margin-bottom: 0;
+}
+
+.no-img-testimonial .testimonial-details div .person-role {
+    font-weight: 500;
+    color: rgba(107, 114, 128, 1);
+    margin-top: 0.25em;
+}

@@ -1,4 +1,6 @@
 import quoteIcon from '../../assets/Testimonial-Assets/quote-icon.svg'
+import testimonialLogo from '../../assets/Testimonial-Assets/testimonial-logo.svg'
+import dotPattern from '../../assets/Testimonial-Assets/dot-pattern.svg'
 import './Testimonial.css'
 
 export default function Testimonial({src, variant}) {
@@ -26,8 +28,8 @@ export default function Testimonial({src, variant}) {
     } else {
         return (
             <div className={`no-img-testimonial ${desktopClass}`}>
+                <img src={testimonialLogo} alt='workaction logo' className='testimonial-logo'/>
                 <div className={`testimonial-details ${desktopClass}`}>
-                    <img />
                     <p className='text'>
                         “Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                         Nemo expedita voluptas culpa sapiente alias molestiae. 
@@ -35,10 +37,10 @@ export default function Testimonial({src, variant}) {
                     </p>
                     <div>
                         <p className='person-name'>May Andersons</p>
-                        <p className='person-logo'>Workcation, CTO</p>
+                        <p className='person-role'>Workcation, CTO</p>
                     </div>
                 </div>
-                <img />
+                <img src={dotPattern} className={`dot-pattern ${desktopClass}`} />
             </div>
         )
     }   
