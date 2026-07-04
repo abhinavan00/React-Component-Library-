@@ -2,8 +2,10 @@ import quoteIcon from '../../assets/Testimonial-Assets/quote-icon.svg'
 import './Testimonial.css'
 
 export default function Testimonial({src, variant}) {
+
+    const desktopClass = variant === 'desktop' ? 'desktop' : ''
+
     if(src) {
-        const desktopClass = variant === 'desktop' ? 'desktop' : ''
         return (
             <div className={`testimonial-with-img ${desktopClass}`}>
                 <div className={`testimonial-details ${desktopClass}`}>
@@ -21,5 +23,23 @@ export default function Testimonial({src, variant}) {
                 <img src={src} alt='testimonial person image' className={`person-img ${desktopClass}`}/>
             </div>
         )   
+    } else {
+        return (
+            <div className={`no-img-testimonial ${desktopClass}`}>
+                <div className={`testimonial-details ${desktopClass}`}>
+                    <img />
+                    <p className='text'>
+                        “Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Nemo expedita voluptas culpa sapiente alias molestiae. 
+                        Numquam corrupti in laborum sed rerum et corporis.”
+                    </p>
+                    <div>
+                        <p className='person-name'>May Andersons</p>
+                        <p className='person-logo'>Workcation, CTO</p>
+                    </div>
+                </div>
+                <img />
+            </div>
+        )
     }   
 }

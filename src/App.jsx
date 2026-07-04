@@ -10,7 +10,7 @@ function App() {
 
   return (
     <>
-      <Testimonial src={testimonialImg} variant={'desktop'}/>
+      <Testimonial src={testimonialImg} variant={''}/>
     </>
   )
 }
