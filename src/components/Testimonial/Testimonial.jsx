@@ -35,8 +35,9 @@ export default function Testimonial({src, variant}) {
                         Nemo expedita voluptas culpa sapiente alias molestiae. 
                         Numquam corrupti in laborum sed rerum et corporis.”
                     </p>
-                    <div>
+                    <div className={desktopClass}>
                         <p className='person-name'>May Andersons</p>
+                        {variant === 'desktop' && <span>/</span>}
                         <p className='person-role'>Workcation, CTO</p>
                     </div>
                 </div>
