@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <Tooltip />
+      <Tooltip variant={''}/>
     </>
   )
 }
