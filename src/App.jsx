@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-      <Tooltip variant={'bold-green'}/>
+      <Tooltip variant={'light-blue'}/>
     </>
   )
 }
