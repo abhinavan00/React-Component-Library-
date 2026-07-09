@@ -122,3 +122,13 @@
     --icon-color: rgba(199, 54, 158, 1);
     --text-color: rgba(199, 54, 158, 1);
 }
+
+/* LIGHT GREEN */
+.tooltip.light-green {
+    --bg-color: rgba(231, 255, 243, 1);
+    --close-btn-color: rgba(60, 140, 78, 1);
+    --tip-color: rgba(231, 255, 243, 1);
+    --span-color: rgba(19, 122, 42, 1);
+    --icon-color: rgba(65, 165, 87, 1);
+    --text-color: rgba(60, 140, 78, 1);
+}
