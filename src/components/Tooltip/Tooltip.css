@@ -64,7 +64,7 @@
 }
 
 /* DARK */
-.tooltip.dark {
+.tooltip.bold {
     --bg-color: rgba(38, 38, 38, 1);
     --close-btn-color: rgba(199, 199, 199, 1);
     --tip-color: rgba(38, 38, 38, 1);
@@ -74,7 +74,7 @@
 }
 
 /* DARK BLUE */
-.tooltip.dark-blue {
+.tooltip.bold-blue {
     --bg-color: rgba(30, 64, 175, 1);
     --close-btn-color: rgba(216, 216, 216, 1);
     --tip-color: rgba(30, 64, 175, 1);
@@ -84,11 +84,21 @@
 }
 
 /* DARK PINK */
-.tooltip.dark-pink {
+.tooltip.bold-pink {
     --bg-color: rgba(169, 34, 155, 1);
     --close-btn-color: rgba(216, 216, 216, 1);
     --tip-color: rgba(169, 34, 155, 1);
     --span-color: rgba(255, 255, 255, 1);
     --icon-color: rgba(244, 98, 230, 1);
     --text-color: rgba(255, 233, 253, 1);
+}
+
+/* DARK GREEN */
+.tooltip.bold-green {
+    --bg-color: rgba(71, 170, 93, 1);
+    --close-btn-color: rgba(216, 216, 216, 1);
+    --tip-color: rgba(71, 170, 93, 1);
+    --span-color: rgba(255, 255, 255, 1);
+    --icon-color: rgba(193, 255, 207, 1);
+    --text-color: rgba(227, 255, 233, 1);
 }
