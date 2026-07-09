@@ -112,3 +112,13 @@
     --icon-color: rgba(28, 81, 185, 1);
     --text-color: rgba(28, 81, 185, 1);
 }
+
+/* LIGHT PINK */
+.tooltip.light-pink {
+    --bg-color: rgba(255, 243, 252, 1);
+    --close-btn-color: rgba(199, 54, 158, 1);
+    --tip-color: rgba(255, 243, 252, 1);
+    --span-color: rgba(169, 34, 155, 1);
+    --icon-color: rgba(199, 54, 158, 1);
+    --text-color: rgba(199, 54, 158, 1);
+}
